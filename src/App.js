@@ -1,7 +1,7 @@
 import Header from "./components/Header/Header";
 import FormInput from "./components/FormInput/FormInput";
 import InvestmentList from "./components/InvestmentList/InvestmentList";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function App() {
   const [userInput, setUserInput] = useState(null);

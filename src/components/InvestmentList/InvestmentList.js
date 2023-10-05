@@ -1,4 +1,5 @@
-import styles from './InvestmentList.module.css'
+import styles from './InvestmentList.module.css';
+import React from 'react';
 
 const formatter = new Intl.NumberFormat('en-US', {
   style: 'currency',
